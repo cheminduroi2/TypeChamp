@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/divisions"
+        android:title="@string/nav_drawer_label"
+        android:orderInCategory="1">
+        <menu>
+            <item
+            android:id="@+id/lightweight_item"
+            android:title="@string/division_lightweight" />
+            <item
+                android:id="@+id/middleweight_item"
+                android:title="@string/division_middleweight" />
+            <item
+                android:id="@+id/heavyweight_item"
+                android:title="@string/division_heavyweight" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/stats_item"
+        android:title="@string/stats_label"
+        android:orderInCategory="2" />
+</menu>
